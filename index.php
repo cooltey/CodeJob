@@ -19,6 +19,7 @@
 		
 		// get the prev page
 		$get_url = "";
+		$prev_url = "";
 		foreach($html->find("div[class=btn-group pull-right] a") as $element){
 			if(preg_match_all("/上頁/", $element->plaintext)){
 				$prev_url = $element->href;
