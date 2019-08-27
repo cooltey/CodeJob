@@ -1,6 +1,4 @@
 # CodeJob
-A PTT article gather for freelancers
-
-Simple code for gathering PTT articles.
+A simple PHP + XML parser that parses data from ptt.cc website.
 
 All you need is a PHP enviornment.
