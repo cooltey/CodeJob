@@ -20,7 +20,7 @@
 		// get the prev page
 		$get_url = "";
 		$prev_url = "";
-		foreach($html->find("div[class=btn-group pull-right] a") as $element){
+		foreach($html->find("div[class=btn-group btn-group-paging] a") as $element){
 			if(preg_match_all("/上頁/", $element->plaintext)){
 				$prev_url = $element->href;
 			}
@@ -135,6 +135,19 @@
 				?>
 			  </div>
 			</div>
+		</div>
+		<div>
+			<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+			<!-- CodeJob -->
+			<ins class="adsbygoogle"
+			     style="display:block"
+			     data-ad-client="ca-pub-7789199985896905"
+			     data-ad-slot="7790107950"
+			     data-ad-format="link"
+			     data-full-width-responsive="true"></ins>
+			<script>
+			     (adsbygoogle = window.adsbygoogle || []).push({});
+			</script>
 		</div>
 	</div>
     <script src="http://code.jquery.com/jquery.js"></script>
